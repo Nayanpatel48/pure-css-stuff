@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* css is a rule based language in which you specify the element on which you want to apply
+        rules such as color. */
+        /* css part */
+        body{
+            /* property and value pairs */
+            background-color: white;
+        }
+        h1{
+            background-color:purple;
+            text-align: center;
+            color: white;
+            height: 40px;
+        }
+        /* .First{
+            background-color:green;
+            /* font-weight: bold; */
+            /*font-size: 150%;
+        } */
+        /* .Second{
+            background-color: greenyellow;
+            /* font-weight: bold; */
+            /*font-size: 150%;
+        } */
+        .Third{
+            background-color: aqua;
+            /* font-weight: bold; */
+            font-size: 150%;
+        }
+        /* article.First means that apply this properties to the elements of articles having class name
+        "First" and "Third" so that they both have the same property*/
+        article.First,
+        article.Second{
+            background-color:green;
+            /* font-weight: bold; */
+            font-size: 150%;
+        }
+    </style>
+    <title>CSS</title>
+</head>
+<body>
+    <!-- flexbox is one dimensional layout method to arrange items in row and column. -->
+    <header>
+        <h1>Learning css cool</h1>
+    </header>
+
+    <!-- article represents the self contained composition in a document. Just like one page can have multiple articles in it. -->
+
+    <section>
+        <!-- by using class attribute you can target perticular element on the screen to be 
+         modified using css if you use same class name for multiple elements in html then they all
+         have same property css will be written as .className{declarations}-->
+        <article class="First">
+            <h2>First article</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas laudantium voluptates repellat consequuntur ab eligendi iste dignissimos doloremque, repellendus in eius totam mollitia quam dolores corporis perferendis consectetur assumenda quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, et! Aspernatur nobis neque architecto repudiandae illum beatae esse dolorem laborum ipsum! Molestiae inventore ullam corrupti animi commodi laborum eum similique aut, sunt reiciendis, suscipit unde minima? Cupiditate ratione voluptate iusto quidem, reprehenderit distinctio ut sapiente sit itaque, possimus assumenda quaerat.
+            </p>
+        </article>
+        <article class="Second">
+            <h2>Second article</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas laudantium voluptates repellat consequuntur ab eligendi iste dignissimos doloremque, repellendus in eius totam mollitia quam dolores corporis perferendis consectetur assumenda quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, et! Aspernatur nobis neque architecto repudiandae illum beatae esse dolorem laborum ipsum! Molestiae inventore ullam corrupti animi commodi laborum eum similique aut, sunt reiciendis, suscipit unde minima? Cupiditate ratione voluptate iusto quidem, reprehenderit distinctio ut sapiente sit itaque, possimus assumenda quaerat.
+            </p>
+        </article>
+        <article class="Third">
+            <h2>Third article</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas laudantium voluptates repellat consequuntur ab eligendi iste dignissimos doloremque, repellendus in eius totam mollitia quam dolores corporis perferendis consectetur assumenda quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, et! Aspernatur nobis neque architecto repudiandae illum beatae esse dolorem laborum ipsum! Molestiae inventore ullam corrupti animi commodi laborum eum similique aut, sunt reiciendis, suscipit unde minima? Cupiditate ratione voluptate iusto quidem, reprehenderit distinctio ut sapiente sit itaque, possimus assumenda quaerat.
+            </p>
+        </article>
+    </section>
+</body>
+</html>
