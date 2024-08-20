@@ -1,0 +1,57 @@
+<!-- by uncommenting each of this component and using live server you can see the impact of each 
+ attribute here this is investigative study-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model learning</title>
+    <style>
+
+        /* by using comma between p and ul we are applying same property these two */
+        .p,ul{
+            display: block;
+            border: 2px solid burlywood;
+        }
+        
+        .one,li{
+            border: 2px solid blueviolet;
+            padding: 5px;
+        }
+
+        /* used to display list elements list to horizontally */
+        ul{
+            display: flex;
+            list-style: none;
+        }
+
+        .one{
+            display: block;
+            /* width: 500px; explicitly giving width to the element*/
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+    </article>
+    <article>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, accusamus dolores adipisci totam, nemo
+
+            <!----------------------------------------span tag-------------------------------
+            used to grop elements together to applying styling on it or modify it by givingit id , 
+            class. -->
+
+            <span class="one">
+                This is block.
+            </span>
+            , reprehenderit possimus perspiciatis earum. Labore quis eos ducimus nisi vero, deleniti, voluptatibus repellat praesentium tempora sequi incidunt ipsam minima ex nemo sapiente!
+        </p>
+    </article>
+</body>
+</html>
