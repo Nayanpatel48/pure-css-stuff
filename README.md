@@ -12,4 +12,5 @@ Outcomes in html one file:<br/>
 2)applying same css property to multiple elements<br/>
 ->boxModel1.html:<br/>
 1)div usage, margine, padding, box
-->
+->styleImages.html:<br/>
+1)img tag usage
