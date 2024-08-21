@@ -14,3 +14,5 @@ Outcomes in html one file:<br/>
 1)div usage, margine, padding, box
 ->styleImages.html:<br/>
 1)img tag usage
+->flexBox.html:<br/>
+1)flex box<br/>
